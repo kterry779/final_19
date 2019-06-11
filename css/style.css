@@ -1,0 +1,108 @@
+#gallery{
+  display:flex; 
+  flex-direction:column;
+  align-items:center;
+ }
+ 
+ div{
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+   position:relative;
+   top:330px;
+   left:20px;
+ }
+ 
+ img{
+   width:400px;
+   padding:20px;
+   border-radius:25px;
+ }
+ #island{
+   
+   width:400px;
+   padding:0px;
+   border-radius:0px;
+   position:absolute;
+ }
+ #tree{
+   max-height:300px;
+ }
+ h2{
+   font-family: 'Fira Sans Condensed', sans-serif;
+   background:#FBF7EB;
+   font-size:90px;
+   position:relative;
+   color: #014262;
+   padding:0 20px 0 0;
+   
+   top:450px;
+   
+ }
+ #days{
+   top:383px;
+ }
+ h3{
+   font-family: 'Roboto Slab', serif;
+   
+   font-size:16px;
+   max-width:400px;
+   color: #014262;
+ }
+ h4{
+   font-family:'Roboto Slab';
+   max-width:400px;
+   font-size:12.31px;
+   color: #4E4E4E;
+ }
+ #pics{
+   top:30px;
+   left:0px;
+ }
+ @media screen and (min-width: 768px) {
+   #gallery{
+   flex-direction:row;
+   align-items:flex-start;
+     
+   }
+   img{
+     width:30%;
+     height:235px;
+   }
+   #island{
+   
+     height:100%;
+     width:45%;
+   }
+   h2{
+     top:0px;
+     font-size:150px;
+     left:100%;
+   }
+   h3{
+     font-size:20px;
+   }
+   h4{
+     font-size:16px;
+   }
+   #days{
+     top:-120px;
+    
+   }
+   div{
+   display:flex;
+   align-items:flex-start;
+   flex-direction:column;
+   position:relative;
+   top:500px;
+   left:10%;
+ }
+   #pics{
+     flex-direction:row;
+     top:20px;
+     left:-18%;
+     
+     
+   }
+ }
+ 
